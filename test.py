@@ -1,6 +1,10 @@
-a=5
-def b():
-    global a
-    a=a+1
-    print (a)
-b()
+class a:
+
+    def printa5(self, s="feijrl"):
+        return s
+
+
+obj = a()
+obj.name = "mahmoud"
+print(obj.__dict__)
+print(a.__dict__)
