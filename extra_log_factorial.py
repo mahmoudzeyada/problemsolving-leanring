@@ -9,7 +9,7 @@
 from functools import reduce
 
 
-def facto(n): return reduce(lambda x, y: x*y, range(1, n+1))
+def extraLongFactorials(n): return reduce(lambda x, y: x*y, range(1, n+1))
 
 
 print(facto(55))

@@ -92,11 +92,14 @@
 # print(encryption(s))
 # (lambda s: (lambda r: print(' '.join(map(lambda x: s[x::r], range(r)))))(int(-(-(len(s)**0.5)//1))))(input().strip())
 # import sys
-from math import ceil, sqrt
+# from math import ceil, sqrt
+# from decoratores import timer
 
 
-(lambda s: (lambda c: (print(' '.join(map(lambda x: s[x::c], range(c))))))(
-    ceil(sqrt(len(s)))))(input().strip())
-# this is fqin one line code
+# (lambda s: (lambda c: (print(' '.join(map(lambda x: s[x::c], range(c))))))(
+#     ceil(sqrt(len(s)))))(input().strip().replace(" ", ""))
+# # this is fqin one line code
 # (lambda s: ((lambda c: print(" ".join(map(lambda x: s[x::4], range(c)))))(
 # int(-(-(len(s)**0.5)//1)))))(input().strip())
+
+(lambda x, y: print(x+y))(5, 6)
